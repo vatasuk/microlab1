@@ -1,0 +1,11 @@
+version: <docker-compose-version>
+services:
+      database:
+              image: <vatasuk/microlab>
+              ports:
+                - "8080:8080"
+      environment:
+        - "SPRING_PROFILES_ACTIVE=DEV"
+
+
+
